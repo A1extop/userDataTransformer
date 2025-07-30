@@ -1,0 +1,525 @@
+2025-07-30T16:21:05.000+0300	info	cmd/main.go:65	listen: 0.0.0.0:8080
+2025-07-30T16:21:05.000+0300	info	usecase/usecase.go:72	Запуск воркер пула	{"workers": 100}
+2025-07-30T16:21:05.000+0300	info	usecase/usecase.go:169	Воркер пул запущен
+2025-07-30T16:26:45.027+0300	info	cmd/main.go:65	listen: 0.0.0.0:8080
+2025-07-30T16:26:45.027+0300	info	usecase/usecase.go:72	Запуск воркер пула	{"workers": 100}
+2025-07-30T16:26:45.027+0300	info	usecase/usecase.go:172	Воркер пул запущен
+2025-07-30T16:35:19.039+0300	info	v1/transformer.go:36	Начало обработки запроса ImportUsers
+2025-07-30T16:35:39.775+0300	info	cmd/main.go:65	listen: 0.0.0.0:8080
+2025-07-30T16:35:39.775+0300	info	usecase/usecase.go:72	Запуск воркер пула	{"workers": 100}
+2025-07-30T16:35:39.775+0300	info	usecase/usecase.go:172	Воркер пул запущен
+2025-07-30T16:35:43.852+0300	info	v1/transformer.go:36	Начало обработки запроса ImportUsers
+2025-07-30T16:35:43.852+0300	info	usecase/usecase.go:38	Начало обработки импорта	{"users_count": 42}
+2025-07-30T16:35:43.852+0300	info	usecase/usecase.go:55	Фильтрация пользователей завершена
+2025-07-30T16:35:43.852+0300	info	usecase/usecase.go:64	Данные успешно добавлены в локальное хранилище
+2025-07-30T16:35:43.852+0300	info	v1/transformer.go:57	Обработка импорта запущена
+2025-07-30T16:35:45.778+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 65, "error": "bad response from remote: 500 Internal Server Error", "user_id": "25", "attempt": 1}
+2025-07-30T16:35:45.778+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 12, "error": "bad response from remote: 500 Internal Server Error", "user_id": "20", "attempt": 1}
+2025-07-30T17:12:41.683+0300	info	cmd/main.go:65	listen: 0.0.0.0:8080
+2025-07-30T17:12:41.683+0300	info	usecase/usecase.go:72	Запуск воркер пула	{"workers": 100}
+2025-07-30T17:12:41.683+0300	info	usecase/usecase.go:172	Воркер пул запущен
+2025-07-30T17:12:47.994+0300	info	v1/transformer.go:36	Начало обработки запроса ImportUsers
+2025-07-30T17:12:47.994+0300	info	usecase/usecase.go:38	Начало обработки импорта	{"users_count": 42}
+2025-07-30T17:12:47.994+0300	info	usecase/usecase.go:55	Фильтрация пользователей завершена
+2025-07-30T17:12:47.994+0300	info	usecase/usecase.go:64	Данные успешно добавлены в локальное хранилище
+2025-07-30T17:12:47.994+0300	info	v1/transformer.go:57	Обработка импорта запущена
+2025-07-30T17:12:48.549+0300	info	v1/transformer.go:36	Начало обработки запроса ImportUsers
+2025-07-30T17:12:48.550+0300	info	usecase/usecase.go:38	Начало обработки импорта	{"users_count": 42}
+2025-07-30T17:12:48.550+0300	info	usecase/usecase.go:55	Фильтрация пользователей завершена
+2025-07-30T17:12:48.550+0300	info	usecase/usecase.go:64	Данные успешно добавлены в локальное хранилище
+2025-07-30T17:12:48.550+0300	info	v1/transformer.go:57	Обработка импорта запущена
+2025-07-30T17:12:49.319+0300	info	v1/transformer.go:36	Начало обработки запроса ImportUsers
+2025-07-30T17:12:49.319+0300	info	usecase/usecase.go:38	Начало обработки импорта	{"users_count": 42}
+2025-07-30T17:12:49.319+0300	info	usecase/usecase.go:55	Фильтрация пользователей завершена
+2025-07-30T17:12:49.319+0300	info	usecase/usecase.go:64	Данные успешно добавлены в локальное хранилище
+2025-07-30T17:12:49.319+0300	info	v1/transformer.go:57	Обработка импорта запущена
+2025-07-30T17:12:49.687+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 93, "error": "bad response from remote: 500 Internal Server Error", "user_id": "13", "attempt": 1}
+2025-07-30T17:12:49.687+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 37, "error": "bad response from remote: 500 Internal Server Error", "user_id": "34", "attempt": 1}
+2025-07-30T17:12:49.687+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 8, "error": "bad response from remote: 500 Internal Server Error", "user_id": "10", "attempt": 1}
+2025-07-30T17:12:49.687+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 5, "error": "bad response from remote: 500 Internal Server Error", "user_id": "7", "attempt": 1}
+2025-07-30T17:12:49.688+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 88, "error": "bad response from remote: 500 Internal Server Error", "user_id": "9", "attempt": 1}
+2025-07-30T17:12:49.688+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 13, "error": "bad response from remote: 500 Internal Server Error", "user_id": "15", "attempt": 1}
+2025-07-30T17:12:49.688+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 48, "error": "bad response from remote: 500 Internal Server Error", "user_id": "13", "attempt": 1}
+2025-07-30T17:12:49.688+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 17, "error": "bad response from remote: 500 Internal Server Error", "user_id": "19", "attempt": 1}
+2025-07-30T17:12:49.688+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 84, "error": "bad response from remote: 500 Internal Server Error", "user_id": "3", "attempt": 1}
+2025-07-30T17:12:49.689+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 15, "error": "bad response from remote: 500 Internal Server Error", "user_id": "17", "attempt": 1}
+2025-07-30T17:12:49.690+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 18, "error": "bad response from remote: 500 Internal Server Error", "user_id": "21", "attempt": 1}
+2025-07-30T17:12:49.690+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 29, "error": "bad response from remote: 500 Internal Server Error", "user_id": "23", "attempt": 1}
+2025-07-30T17:12:49.690+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 26, "error": "bad response from remote: 500 Internal Server Error", "user_id": "31", "attempt": 1}
+2025-07-30T17:12:49.691+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 39, "error": "bad response from remote: 500 Internal Server Error", "user_id": "36", "attempt": 1}
+2025-07-30T17:12:49.691+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 51, "error": "bad response from remote: 500 Internal Server Error", "user_id": "28", "attempt": 1}
+2025-07-30T17:12:49.691+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 52, "error": "bad response from remote: 500 Internal Server Error", "user_id": "30", "attempt": 1}
+2025-07-30T17:12:49.691+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 61, "error": "bad response from remote: 500 Internal Server Error", "user_id": "37", "attempt": 1}
+2025-07-30T18:28:43.099+0300	info	cmd/main.go:65	listen: 0.0.0.0:8080
+2025-07-30T18:28:43.099+0300	info	usecase/usecase.go:72	Запуск воркер пула	{"workers": 100}
+2025-07-30T18:28:43.099+0300	info	usecase/usecase.go:172	Воркер пул запущен
+2025-07-30T18:29:22.910+0300	info	v1/transformer.go:36	Начало обработки запроса ImportUsers
+2025-07-30T18:29:22.910+0300	info	usecase/usecase.go:38	Начало обработки импорта	{"users_count": 42}
+2025-07-30T18:29:22.910+0300	info	usecase/usecase.go:55	Фильтрация пользователей завершена
+2025-07-30T18:29:22.910+0300	info	usecase/usecase.go:64	Данные успешно добавлены в локальное хранилище
+2025-07-30T18:29:22.910+0300	info	v1/transformer.go:57	Обработка импорта запущена
+2025-07-30T18:29:23.102+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 14, "error": "bad response from remote: 500 Internal Server Error", "user_id": "16", "attempt": 1}
+2025-07-30T18:29:23.102+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 34, "error": "bad response from remote: 500 Internal Server Error", "user_id": "29", "attempt": 1}
+2025-07-30T18:29:23.102+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 21, "error": "bad response from remote: 500 Internal Server Error", "user_id": "21", "attempt": 1}
+2025-07-30T18:29:23.103+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 11, "error": "bad response from remote: 500 Internal Server Error", "user_id": "8", "attempt": 1}
+2025-07-30T18:29:23.103+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 23, "error": "bad response from remote: 500 Internal Server Error", "user_id": "23", "attempt": 1}
+2025-07-30T18:29:23.103+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 24, "error": "bad response from remote: 500 Internal Server Error", "user_id": "27", "attempt": 1}
+2025-07-30T18:29:23.103+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 5, "error": "bad response from remote: 500 Internal Server Error", "user_id": "1", "attempt": 1}
+2025-07-30T18:29:23.103+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 9, "error": "bad response from remote: 500 Internal Server Error", "user_id": "6", "attempt": 1}
+2025-07-30T18:29:23.104+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 99, "error": "bad response from remote: 500 Internal Server Error", "user_id": "39", "attempt": 1}
+2025-07-30T18:29:23.595+0300	info	v1/transformer.go:36	Начало обработки запроса ImportUsers
+2025-07-30T18:29:23.595+0300	info	usecase/usecase.go:38	Начало обработки импорта	{"users_count": 42}
+2025-07-30T18:29:23.595+0300	info	usecase/usecase.go:55	Фильтрация пользователей завершена
+2025-07-30T18:29:23.595+0300	info	usecase/usecase.go:64	Данные успешно добавлены в локальное хранилище
+2025-07-30T18:29:23.595+0300	info	v1/transformer.go:57	Обработка импорта запущена
+2025-07-30T18:29:24.215+0300	info	v1/transformer.go:36	Начало обработки запроса ImportUsers
+2025-07-30T18:29:24.215+0300	info	usecase/usecase.go:38	Начало обработки импорта	{"users_count": 42}
+2025-07-30T18:29:24.215+0300	info	usecase/usecase.go:55	Фильтрация пользователей завершена
+2025-07-30T18:29:24.215+0300	info	usecase/usecase.go:64	Данные успешно добавлены в локальное хранилище
+2025-07-30T18:29:24.215+0300	info	v1/transformer.go:57	Обработка импорта запущена
+2025-07-30T18:29:24.879+0300	info	v1/transformer.go:36	Начало обработки запроса ImportUsers
+2025-07-30T18:29:24.879+0300	info	usecase/usecase.go:38	Начало обработки импорта	{"users_count": 42}
+2025-07-30T18:29:24.880+0300	info	usecase/usecase.go:55	Фильтрация пользователей завершена
+2025-07-30T18:29:24.880+0300	info	usecase/usecase.go:64	Данные успешно добавлены в локальное хранилище
+2025-07-30T18:29:24.880+0300	info	v1/transformer.go:57	Обработка импорта запущена
+2025-07-30T18:29:25.103+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 59, "error": "bad response from remote: 500 Internal Server Error", "user_id": "7", "attempt": 1}
+2025-07-30T18:29:25.104+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 73, "error": "bad response from remote: 500 Internal Server Error", "user_id": "16", "attempt": 1}
+2025-07-30T18:29:25.104+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 48, "error": "bad response from remote: 500 Internal Server Error", "user_id": "18", "attempt": 1}
+2025-07-30T18:29:25.104+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 51, "error": "bad response from remote: 500 Internal Server Error", "user_id": "21", "attempt": 1}
+2025-07-30T18:29:25.104+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 87, "error": "bad response from remote: 500 Internal Server Error", "user_id": "34", "attempt": 1}
+2025-07-30T18:29:25.105+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 95, "error": "bad response from remote: 500 Internal Server Error", "user_id": "40", "attempt": 1}
+2025-07-30T18:29:25.105+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 14, "error": "bad response from remote: 500 Internal Server Error", "user_id": "35", "attempt": 1}
+2025-07-30T18:29:25.105+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 98, "error": "bad response from remote: 500 Internal Server Error", "user_id": "15", "attempt": 1}
+2025-07-30T18:29:25.105+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 65, "error": "bad response from remote: 500 Internal Server Error", "user_id": "23", "attempt": 1}
+2025-07-30T18:29:25.105+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 70, "error": "bad response from remote: 500 Internal Server Error", "user_id": "1", "attempt": 1}
+2025-07-30T18:29:25.106+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 20, "error": "bad response from remote: 500 Internal Server Error", "user_id": "100", "attempt": 1}
+2025-07-30T18:29:25.106+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 61, "error": "bad response from remote: 500 Internal Server Error", "user_id": "27", "attempt": 1}
+2025-07-30T18:29:25.106+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 28, "error": "bad response from remote: 500 Internal Server Error", "user_id": "33", "attempt": 1}
+2025-07-30T18:29:27.101+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 6, "error": "bad response from remote: 500 Internal Server Error", "user_id": "1", "attempt": 2}
+2025-07-30T18:29:27.101+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 77, "error": "bad response from remote: 500 Internal Server Error", "user_id": "1", "attempt": 2}
+2025-07-30T18:29:27.101+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 66, "error": "bad response from remote: 500 Internal Server Error", "user_id": "100", "attempt": 2}
+2025-07-30T18:29:27.101+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 95, "error": "bad response from remote: 500 Internal Server Error", "user_id": "35", "attempt": 2}
+2025-07-30T18:29:27.101+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 87, "error": "bad response from remote: 500 Internal Server Error", "user_id": "21", "attempt": 2}
+2025-07-30T18:29:27.101+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 80, "error": "bad response from remote: 500 Internal Server Error", "user_id": "40", "attempt": 2}
+2025-07-30T18:29:27.101+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 34, "error": "bad response from remote: 500 Internal Server Error", "user_id": "7", "attempt": 2}
+2025-07-30T18:29:29.100+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 93, "error": "bad response from remote: 500 Internal Server Error", "user_id": "35", "attempt": 3}
+2025-07-30T18:29:29.100+0300	error	usecase/usecase.go:159	Ошибка отправки пользователя	{"worker_id": 8, "error": "bad response from remote: 500 Internal Server Error", "user_id": "7", "attempt": 3}
+2025-07-30T19:20:47.080+0300	info	cmd/main.go:73	Shutting down graceful
+{"level":"info","ts":"2025-07-30T19:23:50.069+0300","caller":"cmd/main.go:66","msg":"listen: 0.0.0.0:8080"}
+{"level":"info","ts":"2025-07-30T19:23:50.069+0300","caller":"usecase/usecase.go:72","msg":"Запуск воркер пула","workers":100}
+{"level":"info","ts":"2025-07-30T19:23:50.070+0300","caller":"usecase/usecase.go:172","msg":"Воркер пул запущен"}
+{"level":"info","ts":"2025-07-30T19:24:27.394+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:27.395+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:27.395+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:27.395+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:27.395+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:28.047+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:28.047+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:28.047+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:28.047+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:28.047+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"error","ts":"2025-07-30T19:24:28.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":33,"error":"bad response from remote: 500 Internal Server Error","user_id":"26","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":31,"error":"bad response from remote: 500 Internal Server Error","user_id":"24","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":52,"error":"bad response from remote: 500 Internal Server Error","user_id":"30","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":3,"error":"bad response from remote: 500 Internal Server Error","user_id":"13","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":62,"error":"bad response from remote: 500 Internal Server Error","user_id":"8","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":0,"error":"bad response from remote: 500 Internal Server Error","user_id":"2","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":42,"error":"bad response from remote: 500 Internal Server Error","user_id":"4","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":99,"error":"bad response from remote: 500 Internal Server Error","user_id":"27","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":41,"error":"bad response from remote: 500 Internal Server Error","user_id":"99","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":72,"error":"bad response from remote: 500 Internal Server Error","user_id":"22","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":67,"error":"bad response from remote: 500 Internal Server Error","user_id":"17","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":63,"error":"bad response from remote: 500 Internal Server Error","user_id":"9","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":20,"error":"bad response from remote: 500 Internal Server Error","user_id":"25","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":39,"error":"bad response from remote: 500 Internal Server Error","user_id":"39","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":6,"error":"bad response from remote: 500 Internal Server Error","user_id":"4","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":96,"error":"bad response from remote: 500 Internal Server Error","user_id":"99","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:28.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":2,"error":"bad response from remote: 500 Internal Server Error","user_id":"12","attempt":1}
+{"level":"info","ts":"2025-07-30T19:24:28.575+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:28.575+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:28.575+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:28.575+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:28.575+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:29.217+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:29.218+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:29.218+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:29.218+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:29.218+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:29.676+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:29.676+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:29.676+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:29.676+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:29.676+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"error","ts":"2025-07-30T19:24:30.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":1,"error":"bad response from remote: 500 Internal Server Error","user_id":"30","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":58,"error":"bad response from remote: 500 Internal Server Error","user_id":"34","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":37,"error":"bad response from remote: 500 Internal Server Error","user_id":"5","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":8,"error":"bad response from remote: 500 Internal Server Error","user_id":"21","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":72,"error":"bad response from remote: 500 Internal Server Error","user_id":"33","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":7,"error":"bad response from remote: 500 Internal Server Error","user_id":"99","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":94,"error":"bad response from remote: 500 Internal Server Error","user_id":"4","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":88,"error":"bad response from remote: 500 Internal Server Error","user_id":"23","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":56,"error":"bad response from remote: 500 Internal Server Error","user_id":"19","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":78,"error":"bad response from remote: 500 Internal Server Error","user_id":"26","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":31,"error":"bad response from remote: 500 Internal Server Error","user_id":"24","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":35,"error":"bad response from remote: 500 Internal Server Error","user_id":"39","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":83,"error":"bad response from remote: 500 Internal Server Error","user_id":"15","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":23,"error":"bad response from remote: 500 Internal Server Error","user_id":"17","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":34,"error":"bad response from remote: 500 Internal Server Error","user_id":"8","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":69,"error":"bad response from remote: 500 Internal Server Error","user_id":"30","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":5,"error":"bad response from remote: 500 Internal Server Error","user_id":"9","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":25,"error":"bad response from remote: 500 Internal Server Error","user_id":"27","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:30.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":91,"error":"bad response from remote: 500 Internal Server Error","user_id":"11","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:32.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":7,"error":"bad response from remote: 500 Internal Server Error","user_id":"30","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:32.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":68,"error":"bad response from remote: 500 Internal Server Error","user_id":"17","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:34.071+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":13,"error":"bad response from remote: 500 Internal Server Error","user_id":"5","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:34.071+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":49,"error":"bad response from remote: 500 Internal Server Error","user_id":"17","attempt":2}
+{"level":"info","ts":"2025-07-30T19:24:36.916+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:36.916+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:36.916+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:36.916+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:36.916+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:37.698+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:37.698+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:37.698+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:37.698+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:37.698+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"error","ts":"2025-07-30T19:24:38.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":90,"error":"bad response from remote: 500 Internal Server Error","user_id":"22","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:38.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":94,"error":"bad response from remote: 500 Internal Server Error","user_id":"35","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:38.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":68,"error":"bad response from remote: 500 Internal Server Error","user_id":"31","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:38.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":67,"error":"bad response from remote: 500 Internal Server Error","user_id":"1","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:38.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":93,"error":"bad response from remote: 500 Internal Server Error","user_id":"17","attempt":3}
+{"level":"error","ts":"2025-07-30T19:24:38.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":15,"error":"bad response from remote: 500 Internal Server Error","user_id":"99","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:38.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":10,"error":"bad response from remote: 500 Internal Server Error","user_id":"12","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:38.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":84,"error":"bad response from remote: 500 Internal Server Error","user_id":"7","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:38.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":38,"error":"bad response from remote: 500 Internal Server Error","user_id":"35","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:38.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":64,"error":"bad response from remote: 500 Internal Server Error","user_id":"19","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:38.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":28,"error":"bad response from remote: 500 Internal Server Error","user_id":"18","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:38.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":21,"error":"bad response from remote: 500 Internal Server Error","user_id":"13","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:38.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":74,"error":"bad response from remote: 500 Internal Server Error","user_id":"23","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:38.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":14,"error":"bad response from remote: 500 Internal Server Error","user_id":"24","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:38.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":81,"error":"bad response from remote: 500 Internal Server Error","user_id":"9","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:38.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":16,"error":"bad response from remote: 500 Internal Server Error","user_id":"5","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:38.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":75,"error":"bad response from remote: 500 Internal Server Error","user_id":"14","attempt":1}
+{"level":"info","ts":"2025-07-30T19:24:38.331+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:38.331+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:38.331+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:38.331+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:38.331+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:38.929+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:38.929+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:38.929+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:38.929+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:38.929+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:39.564+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:39.565+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:39.565+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:39.565+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:39.565+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"error","ts":"2025-07-30T19:24:40.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":5,"error":"bad response from remote: 500 Internal Server Error","user_id":"7","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:40.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":88,"error":"bad response from remote: 500 Internal Server Error","user_id":"20","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:40.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":31,"error":"bad response from remote: 500 Internal Server Error","user_id":"25","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:40.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":28,"error":"bad response from remote: 500 Internal Server Error","user_id":"29","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:40.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":93,"error":"bad response from remote: 500 Internal Server Error","user_id":"36","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:40.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":95,"error":"bad response from remote: 500 Internal Server Error","user_id":"23","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:40.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":21,"error":"bad response from remote: 500 Internal Server Error","user_id":"30","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:40.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":81,"error":"bad response from remote: 500 Internal Server Error","user_id":"8","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:40.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":56,"error":"bad response from remote: 500 Internal Server Error","user_id":"10","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:40.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":58,"error":"bad response from remote: 500 Internal Server Error","user_id":"26","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:40.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":39,"error":"bad response from remote: 500 Internal Server Error","user_id":"37","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:40.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":11,"error":"bad response from remote: 500 Internal Server Error","user_id":"99","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:40.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":38,"error":"bad response from remote: 500 Internal Server Error","user_id":"15","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:40.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":59,"error":"bad response from remote: 500 Internal Server Error","user_id":"99","attempt":1}
+{"level":"info","ts":"2025-07-30T19:24:40.101+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:40.101+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:40.101+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:40.101+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:40.101+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:40.691+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:40.691+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:40.691+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:40.691+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:40.691+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:41.191+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:41.191+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:41.191+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:41.191+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:41.191+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:41.714+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:41.714+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:41.714+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:41.714+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:41.714+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"error","ts":"2025-07-30T19:24:42.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":60,"error":"bad response from remote: 500 Internal Server Error","user_id":"2","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":23,"error":"bad response from remote: 500 Internal Server Error","user_id":"12","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":41,"error":"bad response from remote: 500 Internal Server Error","user_id":"8","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":56,"error":"bad response from remote: 500 Internal Server Error","user_id":"10","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":64,"error":"bad response from remote: 500 Internal Server Error","user_id":"28","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":0,"error":"bad response from remote: 500 Internal Server Error","user_id":"19","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":72,"error":"bad response from remote: 500 Internal Server Error","user_id":"3","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":36,"error":"bad response from remote: 500 Internal Server Error","user_id":"13","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":69,"error":"bad response from remote: 500 Internal Server Error","user_id":"21","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":59,"error":"bad response from remote: 500 Internal Server Error","user_id":"16","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":65,"error":"bad response from remote: 500 Internal Server Error","user_id":"17","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":45,"error":"bad response from remote: 500 Internal Server Error","user_id":"30","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":8,"error":"bad response from remote: 500 Internal Server Error","user_id":"26","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":76,"error":"bad response from remote: 500 Internal Server Error","user_id":"99","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":62,"error":"bad response from remote: 500 Internal Server Error","user_id":"4","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":21,"error":"bad response from remote: 500 Internal Server Error","user_id":"33","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":61,"error":"bad response from remote: 500 Internal Server Error","user_id":"18","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":9,"error":"bad response from remote: 500 Internal Server Error","user_id":"36","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":27,"error":"bad response from remote: 500 Internal Server Error","user_id":"26","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":93,"error":"bad response from remote: 500 Internal Server Error","user_id":"40","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":54,"error":"bad response from remote: 500 Internal Server Error","user_id":"3","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":25,"error":"bad response from remote: 500 Internal Server Error","user_id":"22","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":23,"error":"bad response from remote: 500 Internal Server Error","user_id":"28","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":83,"error":"bad response from remote: 500 Internal Server Error","user_id":"37","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":24,"error":"bad response from remote: 500 Internal Server Error","user_id":"36","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":77,"error":"bad response from remote: 500 Internal Server Error","user_id":"9","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":28,"error":"bad response from remote: 500 Internal Server Error","user_id":"34","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":48,"error":"bad response from remote: 500 Internal Server Error","user_id":"33","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":16,"error":"bad response from remote: 500 Internal Server Error","user_id":"9","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":19,"error":"bad response from remote: 500 Internal Server Error","user_id":"26","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":91,"error":"bad response from remote: 500 Internal Server Error","user_id":"21","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":43,"error":"bad response from remote: 500 Internal Server Error","user_id":"23","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":12,"error":"bad response from remote: 500 Internal Server Error","user_id":"15","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:42.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":70,"error":"bad response from remote: 500 Internal Server Error","user_id":"27","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":3,"error":"bad response from remote: 500 Internal Server Error","user_id":"29","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":1,"error":"bad response from remote: 500 Internal Server Error","user_id":"1","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":88,"error":"bad response from remote: 500 Internal Server Error","user_id":"30","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":30,"error":"bad response from remote: 500 Internal Server Error","user_id":"99","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":4,"error":"bad response from remote: 500 Internal Server Error","user_id":"28","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":34,"error":"bad response from remote: 500 Internal Server Error","user_id":"15","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:42.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":11,"error":"bad response from remote: 500 Internal Server Error","user_id":"27","attempt":1}
+{"level":"info","ts":"2025-07-30T19:24:42.222+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:42.223+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:42.223+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:42.223+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:42.223+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:42.869+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:42.869+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:42.869+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:42.869+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:42.869+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:43.351+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:43.351+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:43.351+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:43.351+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:43.351+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:43.909+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:43.909+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:43.909+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:43.909+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:43.909+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"error","ts":"2025-07-30T19:24:44.071+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":98,"error":"bad response from remote: 500 Internal Server Error","user_id":"26","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":29,"error":"bad response from remote: 500 Internal Server Error","user_id":"8","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":11,"error":"bad response from remote: 500 Internal Server Error","user_id":"18","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":53,"error":"bad response from remote: 500 Internal Server Error","user_id":"36","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":72,"error":"bad response from remote: 500 Internal Server Error","user_id":"39","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":52,"error":"bad response from remote: 500 Internal Server Error","user_id":"99","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":87,"error":"bad response from remote: 500 Internal Server Error","user_id":"99","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":77,"error":"bad response from remote: 500 Internal Server Error","user_id":"3","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":49,"error":"bad response from remote: 500 Internal Server Error","user_id":"15","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":0,"error":"bad response from remote: 500 Internal Server Error","user_id":"2","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":71,"error":"bad response from remote: 500 Internal Server Error","user_id":"30","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":70,"error":"bad response from remote: 500 Internal Server Error","user_id":"36","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":8,"error":"bad response from remote: 500 Internal Server Error","user_id":"34","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":90,"error":"bad response from remote: 500 Internal Server Error","user_id":"21","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":11,"error":"bad response from remote: 500 Internal Server Error","user_id":"40","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":37,"error":"bad response from remote: 500 Internal Server Error","user_id":"3","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":18,"error":"bad response from remote: 500 Internal Server Error","user_id":"13","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":3,"error":"bad response from remote: 500 Internal Server Error","user_id":"37","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":13,"error":"bad response from remote: 500 Internal Server Error","user_id":"17","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":68,"error":"bad response from remote: 500 Internal Server Error","user_id":"7","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":53,"error":"bad response from remote: 500 Internal Server Error","user_id":"26","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":35,"error":"bad response from remote: 500 Internal Server Error","user_id":"25","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":78,"error":"bad response from remote: 500 Internal Server Error","user_id":"28","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":9,"error":"bad response from remote: 500 Internal Server Error","user_id":"20","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:44.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":46,"error":"bad response from remote: 500 Internal Server Error","user_id":"34","attempt":1}
+{"level":"info","ts":"2025-07-30T19:24:44.413+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:44.413+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:44.413+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:44.413+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:44.413+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:44.909+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:44.909+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:44.909+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:44.909+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:44.909+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:45.366+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:45.366+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:45.366+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:45.366+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:45.366+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:45.760+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:45.760+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:45.760+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:45.760+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:45.760+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"error","ts":"2025-07-30T19:24:46.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":2,"error":"bad response from remote: 500 Internal Server Error","user_id":"16","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":52,"error":"bad response from remote: 500 Internal Server Error","user_id":"99","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":31,"error":"bad response from remote: 500 Internal Server Error","user_id":"10","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:46.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":19,"error":"bad response from remote: 500 Internal Server Error","user_id":"21","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":11,"error":"bad response from remote: 500 Internal Server Error","user_id":"13","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":54,"error":"bad response from remote: 500 Internal Server Error","user_id":"28","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:46.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":86,"error":"bad response from remote: 500 Internal Server Error","user_id":"9","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":72,"error":"bad response from remote: 500 Internal Server Error","user_id":"38","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":28,"error":"bad response from remote: 500 Internal Server Error","user_id":"36","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":88,"error":"bad response from remote: 500 Internal Server Error","user_id":"10","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":30,"error":"bad response from remote: 500 Internal Server Error","user_id":"35","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":38,"error":"bad response from remote: 500 Internal Server Error","user_id":"8","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":57,"error":"bad response from remote: 500 Internal Server Error","user_id":"34","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":5,"error":"bad response from remote: 500 Internal Server Error","user_id":"6","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":27,"error":"bad response from remote: 500 Internal Server Error","user_id":"21","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":62,"error":"bad response from remote: 500 Internal Server Error","user_id":"29","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":49,"error":"bad response from remote: 500 Internal Server Error","user_id":"39","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":79,"error":"bad response from remote: 500 Internal Server Error","user_id":"4","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":89,"error":"bad response from remote: 500 Internal Server Error","user_id":"30","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":41,"error":"bad response from remote: 500 Internal Server Error","user_id":"24","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":54,"error":"bad response from remote: 500 Internal Server Error","user_id":"18","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":18,"error":"bad response from remote: 500 Internal Server Error","user_id":"30","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":74,"error":"bad response from remote: 500 Internal Server Error","user_id":"99","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:46.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":82,"error":"bad response from remote: 500 Internal Server Error","user_id":"14","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":0,"error":"bad response from remote: 500 Internal Server Error","user_id":"3","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:46.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":96,"error":"bad response from remote: 500 Internal Server Error","user_id":"99","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:46.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":36,"error":"bad response from remote: 500 Internal Server Error","user_id":"40","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":40,"error":"bad response from remote: 500 Internal Server Error","user_id":"6","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":38,"error":"bad response from remote: 500 Internal Server Error","user_id":"21","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:46.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":9,"error":"bad response from remote: 500 Internal Server Error","user_id":"1","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":84,"error":"bad response from remote: 500 Internal Server Error","user_id":"36","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:46.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":48,"error":"bad response from remote: 500 Internal Server Error","user_id":"25","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":71,"error":"bad response from remote: 500 Internal Server Error","user_id":"7","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:46.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":72,"error":"bad response from remote: 500 Internal Server Error","user_id":"30","attempt":1}
+{"level":"info","ts":"2025-07-30T19:24:46.232+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:46.233+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:46.233+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:46.233+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:46.233+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:46.679+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:46.680+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:46.680+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:46.680+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:46.680+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:47.130+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:47.130+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:47.130+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:47.130+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:47.130+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:47.493+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:47.493+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:47.493+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:47.493+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:47.493+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:47.914+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:47.914+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:47.914+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:47.914+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:47.914+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"error","ts":"2025-07-30T19:24:48.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":94,"error":"bad response from remote: 500 Internal Server Error","user_id":"14","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":59,"error":"bad response from remote: 500 Internal Server Error","user_id":"100","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":2,"error":"bad response from remote: 500 Internal Server Error","user_id":"4","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":79,"error":"bad response from remote: 500 Internal Server Error","user_id":"23","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":48,"error":"bad response from remote: 500 Internal Server Error","user_id":"4","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":9,"error":"bad response from remote: 500 Internal Server Error","user_id":"40","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":14,"error":"bad response from remote: 500 Internal Server Error","user_id":"31","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":35,"error":"bad response from remote: 500 Internal Server Error","user_id":"2","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":45,"error":"bad response from remote: 500 Internal Server Error","user_id":"19","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":25,"error":"bad response from remote: 500 Internal Server Error","user_id":"38","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":73,"error":"bad response from remote: 500 Internal Server Error","user_id":"5","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":5,"error":"bad response from remote: 500 Internal Server Error","user_id":"20","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":93,"error":"bad response from remote: 500 Internal Server Error","user_id":"5","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":52,"error":"bad response from remote: 500 Internal Server Error","user_id":"34","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":59,"error":"bad response from remote: 500 Internal Server Error","user_id":"32","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":66,"error":"bad response from remote: 500 Internal Server Error","user_id":"28","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":44,"error":"bad response from remote: 500 Internal Server Error","user_id":"7","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":35,"error":"bad response from remote: 500 Internal Server Error","user_id":"29","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":87,"error":"bad response from remote: 500 Internal Server Error","user_id":"34","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":36,"error":"bad response from remote: 500 Internal Server Error","user_id":"27","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":13,"error":"bad response from remote: 500 Internal Server Error","user_id":"15","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":45,"error":"bad response from remote: 500 Internal Server Error","user_id":"31","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":31,"error":"bad response from remote: 500 Internal Server Error","user_id":"24","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":2,"error":"bad response from remote: 500 Internal Server Error","user_id":"38","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":93,"error":"bad response from remote: 500 Internal Server Error","user_id":"7","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":25,"error":"bad response from remote: 500 Internal Server Error","user_id":"37","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":21,"error":"bad response from remote: 500 Internal Server Error","user_id":"4","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":99,"error":"bad response from remote: 500 Internal Server Error","user_id":"23","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":11,"error":"bad response from remote: 500 Internal Server Error","user_id":"31","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":10,"error":"bad response from remote: 500 Internal Server Error","user_id":"100","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":0,"error":"bad response from remote: 500 Internal Server Error","user_id":"17","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":1,"error":"bad response from remote: 500 Internal Server Error","user_id":"19","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":76,"error":"bad response from remote: 500 Internal Server Error","user_id":"16","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:48.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":62,"error":"bad response from remote: 500 Internal Server Error","user_id":"29","attempt":1}
+{"level":"info","ts":"2025-07-30T19:24:48.344+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:48.344+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:48.344+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:48.344+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:48.344+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:48.758+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:48.759+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:48.759+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:48.759+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:48.759+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:49.148+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:49.149+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:49.149+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:49.149+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:49.149+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:49.517+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:49.517+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:49.517+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:49.517+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:49.517+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"info","ts":"2025-07-30T19:24:49.913+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:49.914+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:49.914+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:49.914+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:49.914+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"error","ts":"2025-07-30T19:24:50.070+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":26,"error":"bad response from remote: 500 Internal Server Error","user_id":"35","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:50.071+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":30,"error":"bad response from remote: 500 Internal Server Error","user_id":"38","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:50.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":97,"error":"bad response from remote: 500 Internal Server Error","user_id":"31","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":39,"error":"bad response from remote: 500 Internal Server Error","user_id":"13","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:50.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":40,"error":"bad response from remote: 500 Internal Server Error","user_id":"9","attempt":3}
+{"level":"error","ts":"2025-07-30T19:24:50.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":82,"error":"bad response from remote: 500 Internal Server Error","user_id":"25","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":17,"error":"bad response from remote: 500 Internal Server Error","user_id":"17","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":95,"error":"bad response from remote: 500 Internal Server Error","user_id":"39","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":54,"error":"bad response from remote: 500 Internal Server Error","user_id":"40","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":46,"error":"bad response from remote: 500 Internal Server Error","user_id":"16","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":83,"error":"bad response from remote: 500 Internal Server Error","user_id":"23","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":7,"error":"bad response from remote: 500 Internal Server Error","user_id":"27","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":58,"error":"bad response from remote: 500 Internal Server Error","user_id":"5","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":68,"error":"bad response from remote: 500 Internal Server Error","user_id":"1","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":3,"error":"bad response from remote: 500 Internal Server Error","user_id":"9","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":45,"error":"bad response from remote: 500 Internal Server Error","user_id":"5","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":0,"error":"bad response from remote: 500 Internal Server Error","user_id":"9","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":9,"error":"bad response from remote: 500 Internal Server Error","user_id":"11","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":33,"error":"bad response from remote: 500 Internal Server Error","user_id":"17","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.075+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":13,"error":"bad response from remote: 500 Internal Server Error","user_id":"14","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":40,"error":"bad response from remote: 500 Internal Server Error","user_id":"30","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":86,"error":"bad response from remote: 500 Internal Server Error","user_id":"35","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":77,"error":"bad response from remote: 500 Internal Server Error","user_id":"37","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":64,"error":"bad response from remote: 500 Internal Server Error","user_id":"34","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":71,"error":"bad response from remote: 500 Internal Server Error","user_id":"17","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":35,"error":"bad response from remote: 500 Internal Server Error","user_id":"38","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.076+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":10,"error":"bad response from remote: 500 Internal Server Error","user_id":"30","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":70,"error":"bad response from remote: 500 Internal Server Error","user_id":"8","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":12,"error":"bad response from remote: 500 Internal Server Error","user_id":"1","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:50.077+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":61,"error":"bad response from remote: 500 Internal Server Error","user_id":"40","attempt":1}
+{"level":"info","ts":"2025-07-30T19:24:50.288+0300","caller":"v1/transformer.go:39","msg":"Начало обработки запроса ImportUsers"}
+{"level":"info","ts":"2025-07-30T19:24:50.288+0300","caller":"usecase/usecase.go:38","msg":"Начало обработки импорта","users_count":42}
+{"level":"info","ts":"2025-07-30T19:24:50.288+0300","caller":"usecase/usecase.go:55","msg":"Фильтрация пользователей завершена"}
+{"level":"info","ts":"2025-07-30T19:24:50.288+0300","caller":"usecase/usecase.go:64","msg":"Данные успешно добавлены в локальное хранилище"}
+{"level":"info","ts":"2025-07-30T19:24:50.288+0300","caller":"v1/transformer.go:60","msg":"Обработка импорта запущена"}
+{"level":"error","ts":"2025-07-30T19:24:52.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":11,"error":"bad response from remote: 500 Internal Server Error","user_id":"17","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:52.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":89,"error":"bad response from remote: 500 Internal Server Error","user_id":"39","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:52.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":88,"error":"bad response from remote: 500 Internal Server Error","user_id":"31","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:52.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":41,"error":"bad response from remote: 500 Internal Server Error","user_id":"1","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:52.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":53,"error":"bad response from remote: 500 Internal Server Error","user_id":"4","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:52.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":0,"error":"bad response from remote: 500 Internal Server Error","user_id":"5","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:52.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":57,"error":"bad response from remote: 500 Internal Server Error","user_id":"23","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:52.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":78,"error":"bad response from remote: 500 Internal Server Error","user_id":"15","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:52.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":21,"error":"bad response from remote: 500 Internal Server Error","user_id":"34","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:52.073+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":10,"error":"bad response from remote: 500 Internal Server Error","user_id":"17","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:52.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":29,"error":"bad response from remote: 500 Internal Server Error","user_id":"28","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:52.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":31,"error":"bad response from remote: 500 Internal Server Error","user_id":"5","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:52.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":76,"error":"bad response from remote: 500 Internal Server Error","user_id":"40","attempt":2}
+{"level":"error","ts":"2025-07-30T19:24:52.074+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":36,"error":"bad response from remote: 500 Internal Server Error","user_id":"8","attempt":1}
+{"level":"error","ts":"2025-07-30T19:24:56.072+0300","caller":"usecase/usecase.go:159","msg":"Ошибка отправки пользователя","worker_id":81,"error":"bad response from remote: 500 Internal Server Error","user_id":"1","attempt":3}
